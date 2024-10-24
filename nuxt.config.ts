@@ -4,5 +4,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@vueuse/nuxt", "@nuxt/fonts"],
   fonts: { families: [{ name: "montserrat", provider: "google" }] },
-  css: ["@/assets/styles/main.scss"],
+  css: ["@/assets/styles/main.scss", "@/assets/styles/normalize.css"],
 });
