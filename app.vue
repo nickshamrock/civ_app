@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h1>Привет, мир!</h1>
+    <AppHeader></AppHeader>
+    <AppMainJoke></AppMainJoke>
     <NuxtPage />
-    <NuxtLayout />
+    <AppFooter></AppFooter>
+    <NuxtLayout></NuxtLayout>
   </div>
 </template>

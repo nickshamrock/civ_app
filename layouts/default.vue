@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <h1>Это Layout</h1>
   <NuxtLink to="/about"> В about</NuxtLink>
